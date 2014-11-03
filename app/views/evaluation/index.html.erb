@@ -1,0 +1,53 @@
+<div class="jumbotron">
+  <h1>Evaluations</h1>
+</div>
+
+<%if @evaluations.all.size == 0%>
+<div class="alert alert-danger" role="alert">There are no evaluations to show</div>
+<%else%>
+<table class="table table-striped">
+	<tr>
+		<th>
+			#
+		</th>
+		<th>
+			Product
+		</th>
+		<th>
+			Characteristic
+		</th>
+		<th>
+			User
+		</th>
+		<th>
+			Score
+		</th>
+		<th>
+			Comment
+		</th>
+	</tr>
+	<% @evaluations.each do |evaluation|%>
+		<tr>
+			<td>
+		 		 <%= (evaluation.id)%>
+		 	</td>
+		 	<td>
+		 		 <%= evaluation.Product.name%>
+		 	</td>
+		 	<td>
+		 		 <%= evaluation.Characteristic.name%>
+		 	</td>
+		 	
+			<td>
+		 		 <%= evaluation.User.name %>
+		 	</td>
+		 	<td>
+		 		 <%= evaluation.score %>
+		 	</td>
+		 	<td>
+		 		 <%= evaluation.comment %>
+		 	</td>
+		</tr>
+	<% end %>		
+</table>
+<% end %>

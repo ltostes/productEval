@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  evaluable: false
+  description: MyText
+  customer_id: 
+
+two:
+  name: MyString
+  evaluable: false
+  description: MyText
+  customer_id: 

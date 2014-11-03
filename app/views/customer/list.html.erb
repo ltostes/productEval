@@ -1,0 +1,36 @@
+<div class="jumbotron">
+  <h1>Customers</h1>
+</div>
+
+<%if @customers.all.size == 0%>
+<div class="alert alert-danger" role="alert">There are no customers to show</div>
+<%else%>
+<table class="table table-striped">
+	<tr>
+		<th>
+			#
+		</th>
+		<th>
+			Name
+		</th>
+		<th>
+			Description
+		</th>
+	</tr>
+	<% @customers.each do |customer|%>
+		<% if customer.id > 1%>
+		<tr>
+			<td>
+		 		 <%= (customer.id - 1)%>
+		 	</td>
+		 	<td>
+		 		 <%= customer.name%>
+		 	</td>
+		 	<td>
+		 		 <%= customer.description%>
+		 	</td>
+		</tr>  	
+		<% end%>
+	<% end %>		
+</table>
+<% end %>
