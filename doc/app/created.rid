@@ -1,0 +1,14 @@
+Tue, 04 Nov 2014 10:36:04 -0200
+README.rdoc	Tue, 04 Nov 2014 10:28:28 -0200
+app/controllers/application_controller.rb	Fri, 31 Oct 2014 15:22:43 -0200
+app/controllers/customer_controller.rb	Fri, 31 Oct 2014 19:00:31 -0200
+app/controllers/evaluation_controller.rb	Mon, 03 Nov 2014 18:22:54 -0200
+app/helpers/application_helper.rb	Fri, 31 Oct 2014 15:22:43 -0200
+app/helpers/customer_helper.rb	Fri, 31 Oct 2014 18:48:29 -0200
+app/helpers/evaluation_helper.rb	Mon, 03 Nov 2014 18:22:24 -0200
+app/models/characteristic.rb	Mon, 03 Nov 2014 17:50:25 -0200
+app/models/customer.rb	Fri, 31 Oct 2014 15:25:03 -0200
+app/models/evaluation.rb	Mon, 03 Nov 2014 18:43:25 -0200
+app/models/product.rb	Fri, 31 Oct 2014 15:38:53 -0200
+app/models/product_characteristic.rb	Mon, 03 Nov 2014 18:01:09 -0200
+app/models/user.rb	Fri, 31 Oct 2014 15:39:11 -0200
