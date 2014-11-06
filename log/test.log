@@ -1,0 +1,24 @@
+  [1m[36m (290.9ms)[0m  [1mCREATE TABLE `characteristics` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `evaluable` tinyint(1), `description` text, `customer_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (256.1ms)[0m  CREATE  INDEX `index_characteristics_on_customer_id` USING btree ON `characteristics` (`customer_id`) 
+  [1m[36m (132.9ms)[0m  [1mCREATE TABLE `customers` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `description` text, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (99.3ms)[0m  CREATE TABLE `evaluations` (`id` int(11) auto_increment PRIMARY KEY, `score` int(11), `comment` text, `product_characteristics_id` int(11), `user_id` int(11), `customer_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (200.9ms)[0m  [1mCREATE  INDEX `index_evaluations_on_customer_id` USING btree ON `evaluations` (`customer_id`) [0m
+  [1m[35m (200.4ms)[0m  CREATE  INDEX `index_evaluations_on_product_characteristics_id` USING btree ON `evaluations` (`product_characteristics_id`) 
+  [1m[36m (257.4ms)[0m  [1mCREATE  INDEX `index_evaluations_on_user_id` USING btree ON `evaluations` (`user_id`) [0m
+  [1m[35m (88.7ms)[0m  CREATE TABLE `product_characteristics` (`id` int(11) auto_increment PRIMARY KEY, `product_id` int(11), `characteristic_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (211.9ms)[0m  [1mCREATE  INDEX `index_product_characteristics_on_characteristic_id` USING btree ON `product_characteristics` (`characteristic_id`) [0m
+  [1m[35m (211.7ms)[0m  CREATE  INDEX `index_product_characteristics_on_product_id` USING btree ON `product_characteristics` (`product_id`) 
+  [1m[36m (99.3ms)[0m  [1mCREATE TABLE `products` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `description` text, `customer_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (334.0ms)[0m  CREATE  INDEX `index_products_on_customer_id` USING btree ON `products` (`customer_id`) 
+  [1m[36m (132.8ms)[0m  [1mCREATE TABLE `users` (`id` int(11) auto_increment PRIMARY KEY, `name` varchar(255), `surname` varchar(255), `about` text, `customer_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (200.6ms)[0m  CREATE  INDEX `index_users_on_customer_id` USING btree ON `users` (`customer_id`) 
+  [1m[36m (88.3ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (235.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36m (0.3ms)[0m  [1mSELECT version FROM `schema_migrations`[0m
+  [1m[35m (66.4ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20141103195510')
+  [1m[36m (66.7ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20141031173243')[0m
+  [1m[35m (66.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20141031172538')
+  [1m[36m (66.6ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20141031172810')[0m
+  [1m[35m (66.8ms)[0m  INSERT INTO `schema_migrations` (version) VALUES ('20141031172503')
+  [1m[36m (66.5ms)[0m  [1mINSERT INTO `schema_migrations` (version) VALUES ('20141031172713')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`

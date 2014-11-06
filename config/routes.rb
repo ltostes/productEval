@@ -1,17 +1,6 @@
 Rails.application.routes.draw do
-  get 'evaluation/index'
-
-  get 'evaluation/show'
-
-  get 'evaluation/new'
-
-  get 'evaluation/edit'
-
-  get 'evaluation/create'
-
-  get 'evaluation/update'
-
-  get 'evaluation/destroy'
+  
+  resources :evaluations, :products
 
   get 'customer/list'
 

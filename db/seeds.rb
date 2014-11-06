@@ -81,6 +81,6 @@ ProductCharacteristic.create! ([
 ])
 
 Evaluation.create! ([
-  {id: 1, score: 4, comment: "Uma grande Cerveja!", product_characteristics_id: 1, user_id: 1, customer_id: 2}
+  {id: 1, score: 4, comment: "Uma grande Cerveja!", product_characteristic_id: 1, user_id: 1}
 ])
  

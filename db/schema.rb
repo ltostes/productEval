@@ -34,15 +34,13 @@ ActiveRecord::Schema.define(version: 20141103195510) do
   create_table "evaluations", force: true do |t|
     t.integer  "score"
     t.text     "comment"
-    t.integer  "product_characteristics_id"
+    t.integer  "product_characteristic_id"
     t.integer  "user_id"
-    t.integer  "customer_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
-  add_index "evaluations", ["customer_id"], name: "index_evaluations_on_customer_id", using: :btree
-  add_index "evaluations", ["product_characteristics_id"], name: "index_evaluations_on_product_characteristics_id", using: :btree
+  add_index "evaluations", ["product_characteristic_id"], name: "index_evaluations_on_product_characteristic_id", using: :btree
   add_index "evaluations", ["user_id"], name: "index_evaluations_on_user_id", using: :btree
 
   create_table "product_characteristics", force: true do |t|

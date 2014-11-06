@@ -3,9 +3,8 @@ class CreateEvaluations < ActiveRecord::Migration
     create_table :evaluations do |t|
       t.integer :score
       t.text :comment
-      t.belongs_to :product_characteristics, index: true
+      t.belongs_to :product_characteristic, index: true
       t.belongs_to :user, index: true
-      t.belongs_to :customer, index:true
 
       t.timestamps
     end

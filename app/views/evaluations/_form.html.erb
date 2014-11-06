@@ -1,0 +1,70 @@
+<%= form_for(@evaluation) do |f| %>
+  <% if @evaluation.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@evaluation.errors.count, "error") %> prohibited this evaluation from being saved:</h2>
+
+      <ul>
+      <% @evaluation.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>	
+  
+  <% f.fields_for :user do |u|%>
+  	
+  <div class="form-group">
+    <h4><%= f.label :name %></h4>
+    <%= u.text_field(:name, class: "form-control") %>
+  </div>
+  	
+  <div class="form-group">
+    <h4><%= f.label :surname %></h4>
+    <%= u.text_field(:surname, class: "form-control") %>
+  </div>
+  
+  <%end%>
+  
+	<% if !(@products.nil? or @characteristics.nil?)%>
+		<%= f.fields_for :product_characteristic do |pc|%>
+		    <h4>Product</h4>
+		    <%= pc.select :product_id, @products.map{ |p| [p.name, p.id] } %>
+		  	
+		    <h4>Characteristic</h4>
+		    <%= pc.select :characteristic_id, @characteristics.map{ |c| [c.name, c.id] } %>
+		<% end %>
+	<%end %>
+    <h4><%= f.label :score %></h4>
+    
+  <div class="radio">
+<label class="checkbox-inline">
+    <%= f.radio_button(:score, "1") %>
+    1
+  </label>
+<label class="checkbox-inline">
+    <%= f.radio_button(:score, "2") %>
+    2
+  </label>
+<label class="checkbox-inline">
+    <%= f.radio_button(:score, "3") %>
+    3
+  </label>
+<label class="checkbox-inline">
+    <%= f.radio_button(:score, "4") %>
+    4
+  </label>
+<label class="checkbox-inline">
+    <%= f.radio_button(:score, "5") %>
+    5
+  </label>
+</div>
+  
+  </br>
+  <div class="form-group">
+    <h4><%= f.label :comment %></h4>
+    <%= f.text_area(:comment, rows: 3, class: "form-control") %>
+  </div>
+  <div class="actions">
+    <button type="submit" class="btn btn-default">Create Evaluation</button> <!--%= f.submit %> <!-- -->
+  </div>
+<% end %>

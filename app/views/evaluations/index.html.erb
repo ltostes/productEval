@@ -32,14 +32,14 @@
 		 		 <%= (evaluation.id)%>
 		 	</td>
 		 	<td>
-		 		 <%= evaluation.Product.name%>
+		 		 <%= evaluation.product_characteristic.product.name %> <!-- -->
 		 	</td>
 		 	<td>
-		 		 <%= evaluation.Characteristic.name%>
+		 		 <%= evaluation.product_characteristic.characteristic.name %> <!-- -->
 		 	</td>
 		 	
 			<td>
-		 		 <%= evaluation.User.name %>
+		 		 <%= evaluation.user.name %>
 		 	</td>
 		 	<td>
 		 		 <%= evaluation.score %>
