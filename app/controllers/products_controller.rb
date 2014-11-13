@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
   
-  before_action :get_product, only: [:show, :edit, :update, :destroy]
+  before_action :get_product, only: [:show, :edit, :update, :destroy, :evaluate]
   
   def index
     @products = Product.all
@@ -52,4 +52,36 @@ class ProductsController < ApplicationController
   def product_params
     params.require(:product).permit(:name, :description)
   end
+  
+  def evaluate
+    @evaluations = Array.new
+    
+    @product.product_characteristics.each do |pc|
+      @evaluations.push(Evaluation.new(product_characteristic: pc))
+    end
+  end
+  
+  def create_evaluations
+    params.keep_if {|key, value| key.include? "evaluation"}
+    params.permit!
+    
+    current_user = 1
+    
+    evs = Array.new
+    params.values.each do |pe|
+      evs.push(Evaluation.new(pe))
+    end
+    
+    evs.each do |ev|
+      ev.user = User.find(current_user)
+      ev.save
+    end
+    
+    @product = evs.first.product_characteristic.product
+    
+    respond_to do |format|
+        format.html { render :show }
+    end
+  end
+  
 end

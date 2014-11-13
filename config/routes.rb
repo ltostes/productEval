@@ -2,11 +2,15 @@ Rails.application.routes.draw do
   
   resources :evaluations, :products
 
+  get 'products/:id/evaluate' => 'products#evaluate'
+
   get 'customer/list'
 
   get 'customer/new'
 
   get 'customer/edit'
+  
+  match "/product_evaluated" => "products#create_evaluations", :via => :post
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
