@@ -3,7 +3,7 @@ class ProductsController < ApplicationController
   before_action :get_product, only: [:show, :edit, :update, :destroy, :evaluate]
   
   def index
-    @products = Product.all
+    @products = Product.where(customer: @standard_customer)
     respond_to do |format|
       format.html #show.html.erb
       format.xml { render xml: @products}
@@ -26,7 +26,7 @@ class ProductsController < ApplicationController
 
   def create
     @product = Product.new(product_params)
-    @product.customer = Customer.find(2)
+    @product.customer = @standard_customer
     
     respond_to do |format|
       if @product.save
@@ -64,8 +64,6 @@ class ProductsController < ApplicationController
   def create_evaluations
     params.keep_if {|key, value| key.include? "evaluation"}
     params.permit!
-    
-    current_user = 1
     
     evs = Array.new
     params.values.each do |pe|

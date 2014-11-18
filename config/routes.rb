@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  devise_for :users
   resources :evaluations, :products
 
   get 'products/:id/evaluate' => 'products#evaluate'

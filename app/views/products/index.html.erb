@@ -19,6 +19,9 @@
 		<th>
 			Created at
 		</th>
+		 	<th>
+		 		Evaluate
+		 	</th>
 	</tr>
 	<% @products.each do |product|%>
 		<tr>
@@ -33,7 +36,10 @@
 		 	</td>
 		 	
 			<td>
-		 		 <%= product.created_at %>
+		 		 <%= product.created_at.strftime("%d/%m/%Y") %>
+		 	</td>
+		 	<td>
+		 		<%= link_to "Evaluate", controller: "products", action: "evaluate", id: product %>
 		 	</td>
 		</tr>
 	<% end %>		

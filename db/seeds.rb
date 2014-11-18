@@ -40,13 +40,13 @@ Characteristic.create! ([
   {id: 10, name: "Cost-benefit", evaluable: true, description: "Is it worth it?", customer_id: 3},
 ])
 
-User.create! ([
-  {id: 1, name: "Lucas", surname: "Tostes", about: "Um entusiasta cervejeiro", customer_id: 2},
-  {id: 2, name: "Clarice", surname: "Cunha", about: "Uma cervejeira casual", customer_id: 2},
-  {id: 3, name: "Bruno", surname: "Hashimoto", about: "Descobriu as craft-breweries dos EUA", customer_id: 2},
-  {id: 4, name: "Clarice", surname: "Cunha", about: "Shoes are my passion.", customer_id: 3},
-  {id: 5, name: "James", surname: "Wattson", about: "Simple minded fellow", customer_id: 3}  
-])
+#User.create! ([
+#  {id: 1, name: "Lucas", surname: "Tostes", about: "Um entusiasta cervejeiro", customer_id: 2, email: "lucasrmtostes@gmail.com"},
+#  {id: 2, name: "Clarice", surname: "Cunha", about: "Uma cervejeira casual", customer_id: 2},
+#  {id: 3, name: "Bruno", surname: "Hashimoto", about: "Descobriu as craft-breweries dos EUA", customer_id: 2},
+#  {id: 4, name: "Clarice", surname: "Cunha", about: "Shoes are my passion.", customer_id: 3},
+#  {id: 5, name: "James", surname: "Wattson", about: "Simple minded fellow", customer_id: 3}  
+#])
 
 ProductCharacteristic.create! ([                                                                                                                                                                                                                                   
   {id: 1, product_id: 1, characteristic_id: 1},                                                                                                                                                                                                                     
@@ -80,7 +80,7 @@ ProductCharacteristic.create! ([
   {id: 29, product_id: 5, characteristic_id: 10}
 ])
 
-Evaluation.create! ([
-  {id: 1, score: 4, comment: "Uma grande Cerveja!", product_characteristic_id: 1, user_id: 1}
-])
+#Evaluation.create! ([
+#  {id: 1, score: 4, comment: "Uma grande Cerveja!", product_characteristic_id: 1, user_id: 1}
+#])
  
