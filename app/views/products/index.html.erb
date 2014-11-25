@@ -16,10 +16,10 @@
 		<th>
 			Description
 		</th>
-		<th>
+		<th style="text-align:center">
 			Created at
 		</th>
-		 	<th>
+		 	<th style="text-align:center">
 		 		Evaluate
 		 	</th>
 	</tr>
@@ -35,11 +35,11 @@
 		 		 <%= product.description %> <!-- -->
 		 	</td>
 		 	
-			<td>
+			<td align="center">
 		 		 <%= product.created_at.strftime("%d/%m/%Y") %>
 		 	</td>
-		 	<td>
-		 		<%= link_to "Evaluate", controller: "products", action: "evaluate", id: product %>
+		 	<td align="center">
+		 		<a href="/products/<%= product.id%>/evaluate"> <span class="glyphicon glyphicon-star" aria-hidden="true"></span> </a>
 		 	</td>
 		</tr>
 	<% end %>		

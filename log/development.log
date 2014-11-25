@@ -38451,3 +38451,3544 @@ Processing by ProductsController#evaluate as HTML
   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1[0m  [["id", 7]]
   Rendered products/evaluate.html.erb within layouts/application (35.5ms)
 Completed 200 OK in 263ms (Views: 233.4ms | ActiveRecord: 7.8ms)
+
+
+Started GET "/products/2/evaluate" for 127.0.0.1 at 2014-11-18 22:22:48 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (5.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by ProductsController#evaluate as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1
+  [1m[36mProductCharacteristic Load (2.6ms)[0m  [1mSELECT `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`product_id` = 2[0m
+  [1m[35mCustomer Load (4.5ms)[0m  SELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`product_id` = 2[0m
+  [1m[35mCharacteristic Load (0.3ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1
+  [1m[36mCharacteristic Load (1.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.4ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1[0m  [["id", 7]]
+  Rendered products/evaluate.html.erb within layouts/application (95.2ms)
+Completed 200 OK in 867ms (Views: 661.9ms | ActiveRecord: 23.4ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:49 -0200
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.9ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.7ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 202ms (Views: 194.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:53 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:54 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:54 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:54 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:54 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:54 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:54 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:54 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:54 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:54 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-18 22:22:54 -0200
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-25 10:24:49 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.4ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.8ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (45.7ms)
+Completed 200 OK in 3227ms (Views: 2894.4ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:24:54 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:24:55 -0200
+
+
+Started GET "/characteristics" for 127.0.0.1 at 2014-11-25 10:25:16 -0200
+
+ActionController::RoutingError (No route matches [GET] "/characteristics"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.9ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (26.8ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (114.1ms)
+
+
+Started GET "/characteristic" for 127.0.0.1 at 2014-11-25 10:25:23 -0200
+
+ActionController::RoutingError (No route matches [GET] "/characteristic"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.8ms)
+
+
+Started GET "/evaluations" for 127.0.0.1 at 2014-11-25 10:25:39 -0200
+Processing by EvaluationsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  SELECT COUNT(*) FROM `evaluations`
+  Rendered evaluations/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 251ms (Views: 205.0ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:25:39 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:25:39 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:25:39 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:25:40 -0200
+  [1m[36mEvaluation Load (0.5ms)[0m  [1mSELECT `evaluations`.* FROM `evaluations`[0m
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-25 10:26:22 -0200
+Processing by ProductsController#index as HTML
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.3ms)[0m  SELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2
+  Rendered products/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 283ms (Views: 274.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:23 -0200
+
+
+Started GET "/products/2/evaluate" for 127.0.0.1 at 2014-11-25 10:26:25 -0200
+Processing by ProductsController#evaluate as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1[0m
+  [1m[35mProductCharacteristic Load (0.5ms)[0m  SELECT `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`product_id` = 2
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35mProductCharacteristic Load (0.2ms)[0m  SELECT `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`product_id` = 2
+  [1m[36mCharacteristic Load (0.4ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.4ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1
+  [1m[36mCharacteristic Load (0.4ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.4ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1
+  [1m[36mCharacteristic Load (0.4ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.4ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1
+  [1m[36mCharacteristic Load (0.4ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1  [["id", 3]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1  [["id", 7]]
+  Rendered products/evaluate.html.erb within layouts/application (68.8ms)
+Completed 200 OK in 326ms (Views: 245.8ms | ActiveRecord: 7.7ms)
+
+
+Started POST "/product_evaluated" for 127.0.0.1 at 2014-11-25 10:26:36 -0200
+Processing by ProductsController#create_evaluations as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OuNKymlfLrauicJbF60XFjsslyKflH06FyRoeOGO9iQ=", "evaluation_0"=>{"score"=>"8", "product_characteristic_id"=>"2"}, "evaluation_1"=>{"score"=>"6", "product_characteristic_id"=>"12"}, "evaluation_2"=>{"score"=>"5", "product_characteristic_id"=>"13"}, "evaluation_3"=>{"score"=>"3", "product_characteristic_id"=>"14"}, "evaluation_4"=>{"score"=>"5", "product_characteristic_id"=>"15"}, "evaluation_5"=>{"score"=>"5", "product_characteristic_id"=>"16"}, "evaluation_6"=>{"score"=>"5", "product_characteristic_id"=>"17"}}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (160.0ms)[0m  [1mINSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:26:36', 2, 8, '2014-11-25 12:26:36', 1)[0m
+  [1m[35m (42.5ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:26:36', 12, 6, '2014-11-25 12:26:36', 1)[0m
+  [1m[35m (51.6ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:26:36', 13, 5, '2014-11-25 12:26:36', 1)[0m
+  [1m[35m (51.8ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:26:36', 14, 3, '2014-11-25 12:26:36', 1)[0m
+  [1m[35m (62.4ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:26:36', 15, 5, '2014-11-25 12:26:36', 1)[0m
+  [1m[35m (63.0ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:26:36', 16, 5, '2014-11-25 12:26:36', 1)[0m
+  [1m[35m (62.8ms)[0m  COMMIT
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:26:36', 17, 5, '2014-11-25 12:26:36', 1)[0m
+  [1m[35m (63.2ms)[0m  COMMIT
+  [1m[36mProductCharacteristic Load (0.5ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 2 LIMIT 1[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  Rendered products/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 866ms (Views: 247.6ms | ActiveRecord: 563.7ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:37 -0200
+  [1m[35mEvaluation Load (0.4ms)[0m  SELECT `evaluations`.* FROM `evaluations`
+
+
+Started GET "/evaluations" for 127.0.0.1 at 2014-11-25 10:26:48 -0200
+Processing by EvaluationsController#index as HTML
+  [1m[35mUser Load (3.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (2.6ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `evaluations`
+  [1m[36mEvaluation Load (0.1ms)[0m  [1mSELECT `evaluations`.* FROM `evaluations`[0m
+  [1m[35mProductCharacteristic Load (3.6ms)[0m  SELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 2 LIMIT 1
+  [1m[36mProduct Load (3.3ms)[0m  [1mSELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1[0m
+  [1m[35mCharacteristic Load (3.5ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mProductCharacteristic Load (2.7ms)[0m  SELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 12 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCharacteristic Load (2.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProductCharacteristic Load (0.6ms)[0m  SELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 13 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCharacteristic Load (1.4ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProductCharacteristic Load (0.4ms)[0m  SELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 14 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProductCharacteristic Load (0.4ms)[0m  SELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 15 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProductCharacteristic Load (0.4ms)[0m  SELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 16 LIMIT 1
+  [1m[36mCACHE (0.2ms)[0m  [1mSELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCharacteristic Load (1.9ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mProductCharacteristic Load (1.8ms)[0m  SELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 17 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCharacteristic Load (7.1ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  Rendered evaluations/index.html.erb within layouts/application (138.5ms)
+Completed 200 OK in 489ms (Views: 447.9ms | ActiveRecord: 37.0ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:26:49 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:27:03 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:35:56 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (40.5ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (52.8ms)
+Completed 200 OK in 476ms (Views: 410.9ms | ActiveRecord: 41.1ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:35:58 -0200
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:36:08 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:36:08 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:36:08 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:36:08 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:38:16 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (1.5ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 193ms (Views: 186.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:17 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.4ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 221ms (Views: 215.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:41 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:42 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:42 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:42 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:42 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:42 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:38:42 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 225ms (Views: 219.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:00 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:39:32 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 223ms (Views: 217.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:39:33 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:40:48 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.5ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.1ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 223ms (Views: 216.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:40:49 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (2.6ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 208ms (Views: 200.6ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:42:58 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:42:59 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 222ms (Views: 217.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:16 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:17 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:17 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:17 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:17 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:17 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:17 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:17 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:17 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:43:17 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.3ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 206ms (Views: 201.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:43:25 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.6ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 222ms (Views: 215.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:43:36 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:44:02 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (1.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 209ms (Views: 202.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:44:02 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:44:02 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:44:02 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:02 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:44:02 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:44:03 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 214ms (Views: 209.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:44:10 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:44:40 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 203ms (Views: 197.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:44:40 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:44:40 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:44:40 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:44:40 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:40 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:40 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:40 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:40 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:40 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:40 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:44:41 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:45:07 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.3ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 220ms (Views: 212.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:45:08 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.9ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 206ms (Views: 200.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:19 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:20 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:20 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:20 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:20 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:20 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:20 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:20 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:20 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:20 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:20 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:20 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:45:20 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:45:40 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (1.8ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 222ms (Views: 214.9ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:45:41 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.6ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.5ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 232ms (Views: 224.0ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:00 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:01 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:01 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:01 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:47:01 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.7ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 209ms (Views: 202.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:03 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:04 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:04 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:04 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:04 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:04 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:47:04 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:47:41 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.6ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 232ms (Views: 225.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:47:42 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:47:55 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 209ms (Views: 204.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:47:56 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:48:07 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 222ms (Views: 214.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:48:08 -0200
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 209ms (Views: 202.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:27 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:49:28 -0200
+
+
+Started GET "/products/products/1/evaluate" for 127.0.0.1 at 2014-11-25 10:49:31 -0200
+
+ActionController::RoutingError (No route matches [GET] "/products/products/1/evaluate"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.0ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.8ms)
+
+
+Started GET "/products/products/1/evaluate" for 127.0.0.1 at 2014-11-25 10:49:31 -0200
+
+ActionController::RoutingError (No route matches [GET] "/products/products/1/evaluate"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (41.4ms)
+
+
+Started GET "/products/products/1/evaluate" for 127.0.0.1 at 2014-11-25 10:49:43 -0200
+
+ActionController::RoutingError (No route matches [GET] "/products/products/1/evaluate"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/lucas/.rbenv/versions/2.1.3/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.2ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /home/lucas/.rbenv/versions/2.1.3/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (42.7ms)
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 220ms (Views: 213.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:48 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:49:49 -0200
+
+
+Started GET "/products/1/evaluate" for 127.0.0.1 at 2014-11-25 10:49:49 -0200
+Processing by ProductsController#evaluate as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35mProduct Load (222.1ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 1 LIMIT 1
+  [1m[36mProductCharacteristic Load (0.6ms)[0m  [1mSELECT `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`product_id` = 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`product_id` = 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1[0m  [["id", 7]]
+  Rendered products/evaluate.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 453ms (Views: 220.3ms | ActiveRecord: 225.0ms)
+
+
+Started GET "/products/" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 219ms (Views: 212.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:49:57 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:49:58 -0200
+
+
+Started GET "/products/2/evaluate" for 127.0.0.1 at 2014-11-25 10:49:59 -0200
+Processing by ProductsController#evaluate as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.1ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`product_id` = 2[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`product_id` = 2[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1
+  [1m[36mCACHE (0.1ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.1ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1[0m  [["id", 7]]
+  Rendered products/evaluate.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 212ms (Views: 202.6ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-25 10:50:36 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.4ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 217ms (Views: 212.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:50:36 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:50:36 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:50:36 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:50:37 -0200
+
+
+Started GET "/products/1/evaluate" for 127.0.0.1 at 2014-11-25 10:50:48 -0200
+Processing by ProductsController#evaluate as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 1 LIMIT 1
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`product_id` = 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`product_id` = 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1[0m
+  [1m[35mCharacteristic Load (0.2ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1[0m  [["id", 7]]
+  Rendered products/evaluate.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 212ms (Views: 202.3ms | ActiveRecord: 2.8ms)
+
+
+Started POST "/product_evaluated" for 127.0.0.1 at 2014-11-25 10:50:54 -0200
+Processing by ProductsController#create_evaluations as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OuNKymlfLrauicJbF60XFjsslyKflH06FyRoeOGO9iQ=", "evaluation_0"=>{"score"=>"5", "product_characteristic_id"=>"1"}, "evaluation_1"=>{"score"=>"7", "product_characteristic_id"=>"6"}, "evaluation_2"=>{"score"=>"5", "product_characteristic_id"=>"7"}, "evaluation_3"=>{"score"=>"5", "product_characteristic_id"=>"8"}, "evaluation_4"=>{"score"=>"5", "product_characteristic_id"=>"9"}, "evaluation_5"=>{"score"=>"5", "product_characteristic_id"=>"10"}, "evaluation_6"=>{"score"=>"5", "product_characteristic_id"=>"11"}}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36mCustomer Load (0.2ms)[0m  [1mSELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:50:54', 1, 5, '2014-11-25 12:50:54', 1)
+  [1m[36m (106.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:50:54', 6, 7, '2014-11-25 12:50:54', 1)
+  [1m[36m (62.8ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:50:54', 7, 5, '2014-11-25 12:50:54', 1)
+  [1m[36m (62.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:50:55', 8, 5, '2014-11-25 12:50:55', 1)
+  [1m[36m (62.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:50:55', 9, 5, '2014-11-25 12:50:55', 1)
+  [1m[36m (62.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:50:55', 10, 5, '2014-11-25 12:50:55', 1)
+  [1m[36m (62.2ms)[0m  [1mCOMMIT[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `evaluations` (`created_at`, `product_characteristic_id`, `score`, `updated_at`, `user_id`) VALUES ('2014-11-25 12:50:55', 11, 5, '2014-11-25 12:50:55', 1)
+  [1m[36m (62.9ms)[0m  [1mCOMMIT[0m
+  [1m[35mProductCharacteristic Load (0.5ms)[0m  SELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 1 LIMIT 1
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  `products`.* FROM `products`  WHERE `products`.`id` = 1 LIMIT 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1
+  Rendered products/show.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 751ms (Views: 227.6ms | ActiveRecord: 489.2ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:55 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:56 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:56 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:56 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:56 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:56 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:56 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:56 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:56 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:56 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:56 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:50:56 -0200
+
+
+Started GET "/evaluations" for 127.0.0.1 at 2014-11-25 10:51:01 -0200
+Processing by EvaluationsController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1
+  [1m[36m (30.0ms)[0m  [1mSELECT COUNT(*) FROM `evaluations`[0m
+  [1m[35mEvaluation Load (0.4ms)[0m  SELECT `evaluations`.* FROM `evaluations`
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 2 LIMIT 1[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 12 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 13 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mProductCharacteristic Load (0.4ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 14 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 15 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 16 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 17 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 2 LIMIT 1  [["id", 2]]
+  [1m[36mCharacteristic Load (0.2ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mProductCharacteristic Load (0.2ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 1 LIMIT 1[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mProductCharacteristic Load (2.3ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 6 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 2 LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mProductCharacteristic Load (0.4ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 7 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 3 LIMIT 1[0m  [["id", 3]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mProductCharacteristic Load (0.5ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 8 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 4 LIMIT 1[0m  [["id", 4]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mProductCharacteristic Load (0.4ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 9 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 5 LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mProductCharacteristic Load (0.4ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 10 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 6 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mProductCharacteristic Load (0.4ms)[0m  [1mSELECT  `product_characteristics`.* FROM `product_characteristics`  WHERE `product_characteristics`.`id` = 11 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `products`.* FROM `products`  WHERE `products`.`id` = 1 LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  `characteristics`.* FROM `characteristics`  WHERE `characteristics`.`id` = 7 LIMIT 1[0m  [["id", 7]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1 LIMIT 1  [["id", 1]]
+  Rendered evaluations/index.html.erb within layouts/application (120.6ms)
+Completed 200 OK in 359ms (Views: 314.4ms | ActiveRecord: 40.0ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:51:01 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:02 -0200
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:09 -0200
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-25 10:51:12 -0200
+Processing by ProductsController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (2.2ms)[0m  SELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1
+  [1m[36m (0.9ms)[0m  [1mSELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  [1m[35mProduct Load (1.7ms)[0m  SELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2
+  Rendered products/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 213ms (Views: 202.8ms | ActiveRecord: 5.9ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:51:12 -0200
+
+
+Started GET "/products" for 127.0.0.1 at 2014-11-25 10:51:13 -0200
+Processing by ProductsController#index as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  `users`.* FROM `users`  WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  [1m[35mCustomer Load (0.2ms)[0m  SELECT  `customers`.* FROM `customers`  WHERE `customers`.`id` = 2 LIMIT 1
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM `products`  WHERE `products`.`customer_id` = 2[0m
+  [1m[35mProduct Load (0.2ms)[0m  SELECT `products`.* FROM `products`  WHERE `products`.`customer_id` = 2
+  Rendered products/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 224ms (Views: 217.6ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/customer.css?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/evaluation.css?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/customer.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/evaluation.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-11-25 10:51:14 -0200
